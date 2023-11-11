@@ -262,6 +262,7 @@ export const PreferencesState: Preferences.PreferencesState = {
     [M.Game.DysonSphereProgram]: {},
     [M.Game.Satisfactory]: {},
     [M.Game.CaptainOfIndustry]: {},
+    [M.Game.Foundry]: {},
   },
   columns: M.initialColumnsState,
   rows: 50,

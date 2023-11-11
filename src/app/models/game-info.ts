@@ -45,4 +45,12 @@ export const gameInfo: Record<Game, GameInfo> = {
     modId: 'coi',
     hideColumns: ['beacons', 'pollution', 'power', 'wagons'],
   },
+  [Game.Foundry]: {
+    icon: 'foundry',
+    route: 'foundry',
+    label: 'options.game.foundry',
+    meta: 'Foundry',
+    modId: 'foundry',
+    hideColumns: ['beacons', 'pollution', 'power', 'wagons'],
+  },
 };
